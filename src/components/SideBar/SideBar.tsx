@@ -60,5 +60,4 @@ export const SideBar: React.FC<Props> = ({ user }) => {
       </div>
     </div>
   );
-
 } 

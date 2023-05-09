@@ -1,3 +1,5 @@
+@import './styles/reset.scss';
+
 @font-face {
   font-family: Poppins;
   src: url(./fonts/Poppins-Medium.ttf);
@@ -28,33 +30,4 @@ body {
   font-style: normal;
   font-weight: 500;
   background: linear-gradient(to right, #fff 50%, #fafbff 50%);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-  font-weight: normal;
-  font-size: inherit;
 }
