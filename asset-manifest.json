@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dashboard-test/static/css/main.92368ec8.css",
+    "main.js": "/dashboard-test/static/js/main.e3c24fcf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/dashboard-test/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/dashboard-test/static/media/Poppins-Regular.4211496d0e075ffe7c2f.ttf",
+    "static/media/Poppins-Medium.ttf": "/dashboard-test/static/media/Poppins-Medium.c5eb70982e90502d0d01.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/dashboard-test/static/media/Poppins-SemiBold.090bd619384bb8d4c289.ttf",
+    "static/media/Man 8.png": "/dashboard-test/static/media/Man 8.cc992c57d71a45eb6470.png",
+    "static/media/setting 1.svg": "/dashboard-test/static/media/setting 1.10388eedf1d18f866bca9b73b83a62c9.svg",
+    "index.html": "/dashboard-test/index.html",
+    "static/media/search 1.svg": "/dashboard-test/static/media/search 1.d555a35800fec6f7c192.svg",
+    "main.92368ec8.css.map": "/dashboard-test/static/css/main.92368ec8.css.map",
+    "main.e3c24fcf.js.map": "/dashboard-test/static/js/main.e3c24fcf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/dashboard-test/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92368ec8.css",
+    "static/js/main.e3c24fcf.js"
+  ]
+}
