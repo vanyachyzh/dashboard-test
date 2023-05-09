@@ -1,0 +1,22 @@
+.logo {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+
+  &__title {
+    margin-left: 8px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+
+    &::after {
+      content: "v.01";
+      margin-left: 4px;
+      font-size: 10px;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      color: #838383;
+    }
+  }
+}

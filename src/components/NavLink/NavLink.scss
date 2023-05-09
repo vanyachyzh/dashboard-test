@@ -1,0 +1,34 @@
+@import './../../styles/mixins.scss';
+
+.nav-link {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #9197B3;
+  transition: all 300ms;
+  cursor: pointer;
+
+  @include onPhone {
+    width: 264px;
+  }
+
+  &:hover {
+    background-color: #5932ea;
+    color: #fff;
+  }
+
+  &__icon {
+    display: flex;
+    margin-right: 14px;
+  }
+
+  &__active-flag {
+    display: flex;
+    margin-left: auto;
+  }
+}

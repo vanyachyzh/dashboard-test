@@ -1,0 +1,29 @@
+.user {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__image {
+    width: 42px;
+    height: 42px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  &__position {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757575;
+  }
+}

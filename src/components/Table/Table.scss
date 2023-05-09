@@ -1,0 +1,60 @@
+@import './../../styles/mixins.scss';
+
+.table {
+  width: 100%;
+
+  &__cell {
+    white-space: nowrap;
+    text-align: start;
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+
+    @include onPhone {
+      padding: 24px 20px 24px 0;
+
+      &:first-child {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  &__header-cell {
+    white-space: nowrap;
+    padding-bottom: 14px;
+    text-align: start;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B5B7C0;
+    border-bottom: 1px solid #eee;
+
+    @include onPhone {
+      padding: 24px 20px 24px 0;
+
+      &:first-child {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  &__status {
+    display: block;
+    border-radius: 4px;
+    width: 80px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--active {
+      background: rgba(22, 192, 152, 0.38);
+      border: 1px solid #00B087;
+      color: #008767;
+    }
+
+    &--inactive {
+      background: #FFC5C5;
+      border: 1px solid #DF0404;
+      color: #DF0404;
+    }
+  }
+}
